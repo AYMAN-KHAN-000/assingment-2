@@ -1,0 +1,59 @@
+
+
+
+body{
+    width: auto;
+    overflow-x: hidden;
+}
+
+
+
+nav{
+    height: 40px;
+}
+
+button{
+    border: none;
+}
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* scrollbar */
+/* For WebKit br20pxowsers */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 0px;
+    height: 10px;
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+}
